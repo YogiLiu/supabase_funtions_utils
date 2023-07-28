@@ -1,4 +1,9 @@
-import { ConnInfo, Handler, serve, ServeInit } from "server";
+import {
+  ConnInfo,
+  Handler,
+  serve,
+  ServeInit,
+} from "https://deno.land/std@0.168.0/http/server.ts";
 
 /**
  * Default handler for unsupported methods.
